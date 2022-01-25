@@ -15,7 +15,7 @@ class CheXpertDataSet(Dataset):
         Upolicy: name the policy with regard to the uncertain labels
         """
         image_names = []
-        root = '/home/cougarnet.uh.edu/amobiny/Desktop/CheXpert-v1.0-small'
+        root = '/content/gdrive/MyDrive/MIC_Project/DECAPS/dataset/CheXpert-v1.0-small'
         labels = []
         if mode == 'train':
             self.is_train = True
